@@ -1,0 +1,76 @@
+/* Resetting some default styles */
+body {
+    background-image: url('backround.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+* {
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    background-color: #333;
+    color: #000000;
+    list-style: none;
+}
+
+nav ul li {
+    background-color: #333;
+    color: #000000;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    background-color: #333;
+    color: #000000;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Global styles */
+main {
+    max-width: 400px;
+    margin: 0 auto; /* Center the element horizontally */
+    padding: 25px;
+    text-align: center;
+    background-color: #fff9f9;
+    color: #000000;
+  }
+  
+  /* Section styles */
+  section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff9f9;
+    color: #000000;
+  }
+  
+  section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
